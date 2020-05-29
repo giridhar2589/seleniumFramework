@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="muQuest Application" thread-count="1"
+	parallel="tests">
+	<listeners>
+		<listener
+			class-name="com.mu_sigma.OrgPlatformAutomationFramework.listners.Listners"></listener>
+	</listeners>
+	<test name="HomePageSelfAssesment_test">
+		<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.MuEval.test.HomePageSelfAssesment_test"></class>
+		</classes>
+	</test>
+	<test name="FULTEvaluation_test">
+		<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.MuEval.test.FULTEvaluation_test"></class>
+		</classes>
+	</test>
+	<test name="ManagerEvaluation_test">
+		<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.MuEval.test.ManagerEvaluation_test"></class>
+		</classes>
+	</test>
+</suite>

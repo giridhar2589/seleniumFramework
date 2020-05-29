@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="muQuest Applications mu_Social " thread-count="1" >
+  
+  <test name="Login">
+    <classes>
+      <class name="com.mu_sigma.OrgPlatformAutomationFramework.muSocial.test.Login_test"/>
+    </classes>
+  </test> 
+
+<!-- <test thread-count="1" name="AddingSlide">
+    <classes>
+      <class name="com.mu_sigma.OrgPlatformAutomationFramework.muSocial.test.AddSlide_test"/>
+    </classes>
+  </test>
+  
+  <test thread-count="1" name="UpdatingSlide">
+    <classes>
+      <class name="com.mu_sigma.OrgPlatformAutomationFramework.muSocial.test.UpdateSlide_test"/>
+    </classes>
+  </test>
+  
+  <test thread-count="1" name="DeleteSlide">
+    <classes>
+      <class name="com.mu_sigma.OrgPlatformAutomationFramework.muSocial.test.DeleteSlide_test"/>
+    </classes>
+  </test>
+  
+  <test thread-count="1" name="AddNotification">
+    <classes>
+      <class name="com.mu_sigma.OrgPlatformAutomationFramework.muSocial.test.AddNotification_test"/>
+    </classes>
+  </test>
+  
+  <test thread-count="1" name="DeleteNotification">
+    <classes>
+      <class name="com.mu_sigma.OrgPlatformAutomationFramework.muSocial.test.DeleteNotification_test"/>
+    </classes>
+  </test>
+  
+ <test thread-count="1" name="DeActivatingSlide">
+    <classes>
+      <class name="com.mu_sigma.OrgPlatformAutomationFramework.muSocial.test.InActiveSlide_test"/>
+    </classes>
+  </test>*/
+  
+  <test thread-count="1" name="ActivatingSlide">
+    <classes>
+      <class name="com.mu_sigma.OrgPlatformAutomationFramework.muSocial.test.Activate_slide_test"/>
+    </classes>
+  </test>
+  
+  <test thread-count="1" name="ResendingNotification">
+    <classes>
+      <class name="com.mu_sigma.OrgPlatformAutomationFramework.muSocial.test.Resend_Notification_test"/>
+    </classes>
+  </test>
+ -->
+
+</suite> 

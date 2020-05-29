@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="muQuest Application">
+	<listeners>
+		<listener
+			class-name="com.mu_sigma.OrgPlatformAutomationFramework.listners.Listners"></listener>
+	</listeners>
+	<test name="TransferManagement_test">
+		<classes>		
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.TransferManagement.test.TransferManagement_currentManagerView_test"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="muMoments">
+	<listeners>
+		<listener
+			class-name="com.mu_sigma.OrgPlatformAutomationFramework.listners.Listners"></listener>
+	</listeners>
+	<test name="muMoments">
+		<classes>		
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.muMoments.test.MuMoments_Account_Creation_Test"></class>
+		</classes>
+	</test>
+</suite>

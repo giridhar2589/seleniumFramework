@@ -1,0 +1,5 @@
+WinWait("Authentication Required","",20)
+Send("giridhar.kc")
+Send("{TAB}")
+Send("Cangiri25$")
+Send("{ENTER}")

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BizApp Application" thread-count="1" parallel="tests">
+	<listeners>
+		<listener
+			class-name="com.mu_sigma.OrgPlatformAutomationFramework.listners.Listners"></listener>
+	</listeners>
+	<test name="Address Proof Letter">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.EmployeeLetters.test.Employment_Proof_Letter_Test"></class>
+		</classes>
+	</test>
+
+	<!-- <listeners>
+		<listener class-name="com.automation.OrgPlatform.customListners.Listners"></listener>
+	</listeners>
+	<test name="Address Proof Letter">
+		<classes>
+			<class
+				name="com.automation.OrgPlatform.BizApp.EmployeeLetters.test.NOC_Test"></class>
+		</classes>
+	</test>
+
+	<listeners>
+		<listener class-name="com.automation.OrgPlatform.customListners.Listners"></listener>
+	</listeners>
+	<test name="Address Proof Letter">
+		<classes>
+			<class
+				name="com.automation.OrgPlatform.BizApp.EmployeeLetters.test.Address_Proof_Letter_Test"></class>
+		</classes>
+	</test> -->
+
+</suite>

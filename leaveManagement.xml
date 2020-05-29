@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="muQuest Applications">
+	<listeners>
+		<listener class-name="com.mu_sigma.OrgPlatformAutomationFramework.listners.Listners"></listener>
+	</listeners>
+	<test name="LeaveManagmentEarnLeave_test">
+		<classes>
+			 <class name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.Holidays_test"></class>
+			<!-- <class name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.LeaveType_test"></class> -->
+			<!-- <class name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.CompOffLeaveScheme_test"></class> -->
+			<!-- <class name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.LeaveExemptionLeaveScheme_test"></class>-->
+			<!-- <class name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.OnDutyLeaveScheme_test"></class> -->
+			<!-- <class name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.LOPLeaveScheme_test"></class> -->
+			<!--<class name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.EarnLeaveScheme_test"></class>--> 	
+			<!-- <class name="com.automation.OrgPlatform.muQuest.LeaveManagement.test.LOPLeaveSchemeValidation_test"></class> -->
+			<!-- <class name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.GrantLeave_test"></class>-->
+			<!-- <class name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.ApplyEarnLeaveFromUserView_test"></class>-->
+			<!-- <class name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.ApplyCompOffLeaveFromUserView_test"></class>-->
+			<!-- <class name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.LapsesGrantLeave_test"></class>-->		
+			<!-- <class name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.ApplyLOPFromUserVIew_test"></class> -->
+			<!-- <class name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.ApplyLeaveFromAdminView_test"></class> -->
+			<!-- <class name="com.automation.OrgPlatform.muQuest.LeaveManagement.test.LeaveSummary_test"></class> --> 
+			
+		</classes>
+	</test>
+</suite>

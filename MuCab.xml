@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mu Cab" thread-count="1" parallel="tests">
+	<listeners>
+		<listener class-name="com.automation.OrgPlatform.customListners.Listners"></listener>
+	</listeners>
+	<test name="login to mucab application">
+		<classes>
+			<class name="com.automation.OrgPlatform.muCab.test.MuCabVehicalDetails_Test"></class>
+		</classes>
+	</test>
+	<!-- <test name="Modify and Edit requests">
+		<classes>
+			<class name="com.automation.OrgPlatform.muCab.test.MuCabRequests_Test"></class>
+		</classes>
+	</test>
+	<test name="Check adding and Editing request">
+		<classes>
+			<class
+				name="com.automation.OrgPlatform.muCab.test.MuCabAddorEditEmployeeRequest_Test"></class>
+		</classes>
+	</test>
+	<test name="Does allocation ">
+		<classes>
+			<class name="com.automation.OrgPlatform.muCab.test.MuCabAllocation_Test"></class>
+		</classes>
+	</test>
+	<test name="Checks Boarding Status">
+		<classes>
+			<class name="com.automation.OrgPlatform.muCab.test.MuCabBoardingTest"></class>
+		</classes>
+	</test> -->
+</suite>

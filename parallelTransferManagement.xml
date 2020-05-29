@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="muQuest Applications Transfer Management" thread-count="1"
+	parallel="tests">
+	<listeners>
+		<listener class-name="com.mu_sigma.OrgPlatformAutomationFramework.listners.Listners"></listener>
+	</listeners>
+	<test name="Employee view">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.TransferManagement.test.TransferManagement_employeeView_test"></class>
+		</classes>
+	</test>
+	<test name="Current Manager View">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.TransferManagement.test.TransferManagement_currentManagerView_test"></class>
+		</classes>
+	</test>
+	<test name="New Manager View">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.TransferManagement.test.TransferManagement_newManagerView_test"></class>
+		</classes>
+	</test>
+	<test name="Immigration View">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.TransferManagement.test.TransferManagement_immigrationView_test"></class>
+		</classes>
+	</test>
+	<test name="Checklist View">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.TransferManagement.test.TransferManagement_checklistView_test"></class>
+		</classes>
+	</test>
+	<test name="HR View">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.TransferManagement.test.TransferManagement_HRView_test"></class>
+		</classes>
+	</test>
+	<test name="Admin View">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.TransferManagement.test.TransferManagement_adminView_test"></class>
+		</classes>
+	</test>
+	<test name="Rejections">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.TransferManagement.test.TransferManagement_rejectRequests_differentLevels_test"></class>
+		</classes>
+	</test>
+	
+</suite> 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="muQuest Applications muExpense" thread-count="1"
+	parallel="tests">
+	<listeners>
+		<listener
+			class-name="com.mu_sigma.OrgPlatformAutomationFramework.listners.Listners"></listener>
+	</listeners>
+	<test name="AddBill_test">
+		<classes>		
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.muExpense.test.AddBill_test"></class>
+		</classes>
+	</test>
+	<test name="MyBill_test">
+		<classes>		
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.muExpense.test.MyBills_test"></class>
+		</classes>
+	</test>
+	<test name="Approvals_test">
+		<classes>		
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.muExpense.test.Approvals_test"></class>
+		</classes>
+	</test>
+	</suite> 

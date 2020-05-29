@@ -1,0 +1,5 @@
+WinWait("Authentication Required","",20)
+Send("madan.s")
+Send("{TAB}")
+Send("Bottle@123")
+Send("{ENTER}")

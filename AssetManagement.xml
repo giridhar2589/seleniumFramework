@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BizApp Application" thread-count="1"
+	parallel="tests">
+	<listeners>
+		<listener
+			class-name="com.mu_sigma.OrgPlatformAutomationFramework.listners.Listners"></listener>
+	</listeners>
+	<test name="AssetManagementAssestsMandatory_test">
+		<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.AssetManagement.test.AssetManagementAssetsMandatory_test"></class>
+		</classes>
+	</test>
+	<test name="AssetManagementAssests_test">
+		<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.AssetManagement.test.AssetManagementAssets_test"></class>
+		</classes>
+	</test>
+	<test name="AssetManagementAssestTypesMandatory_test">
+		<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.AssetManagement.test.AssetManagementAssetTypesMand_test"></class>
+		</classes>
+	</test>
+	<test name="AssetManagementAssestTypes_test">
+		<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.AssetManagement.test.AssetManagementAssetTypes_test"></class>
+		</classes>
+	</test>
+	<test name="AssetManagementLevelMandatory_test">
+		<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.AssetManagement.test.AssetManagementLevelMandatory_test"></class>
+		</classes>
+	</test>
+	<test name="AssetManagementLevel_test">
+		<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.AssetManagement.test.AssetManagementLevel_test"></class>
+		</classes>
+	</test>
+	<test name="AssetManagementLockerMandatory_test">
+		<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.AssetManagement.test.AssetManagementLockerMandatory_test"></class>
+		</classes>
+	</test>
+	<test name="AssetManagementLocker_test">
+		<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.AssetManagement.test.AssetManagementLocker_test"></class>
+		</classes>
+	</test>
+	<test name="AssetManagementAssestReq_test">
+		<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.AssetManagement.test.AssetManagementAssetReq_test"></class>
+		</classes>
+	</test>
+	
+</suite>

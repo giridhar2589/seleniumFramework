@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="muQuest Applications Leave Management" thread-count="1"
+	parallel="tests">
+	<listeners>
+		<listener
+			class-name="com.mu_sigma.OrgPlatformAutomationFramework.listners.Listners"></listener>
+	</listeners>
+	<test name="Create Holiday">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.Holidays_test"></class>
+		</classes>
+	</test>
+	<test name="Create Leave Type">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.LeaveType_test"></class>
+		</classes>
+	</test>
+	<test name="Create Comp Off Leave Scheme">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.CompOffLeaveScheme_test"></class>
+		</classes>
+	</test>
+	<test name="Create Leave Exemption Leave Scheme">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.LeaveExemptionLeaveScheme_test"></class>
+		</classes>
+	</test>
+	<test name="Create On Duty Leave Scheme">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.OnDutyLeaveScheme_test"></class>
+		</classes>
+	</test>
+	<test name="Create LOP Leave Scheme">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.LOPLeaveScheme_test"></class>
+		</classes>
+	</test>
+	<test name="Create Earn Leave Scheme">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.EarnLeaveScheme_test"></class>
+		</classes>
+	</test>
+	<test name="Grant Leave validation">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.GrantLeave_test"></class>
+		</classes>
+	</test>
+
+	<test name="Apply Earn Leave from User View">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.ApplyEarnLeaveFromUserView_test"></class>
+		</classes>
+	</test>
+
+	<test name="Apply Comp Off Leave from User View">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.ApplyCompOffLeaveFromUserView_test"></class>
+		</classes>
+	</test>
+
+	<test name="Lapsesd Granted Leave">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.LapsesGrantLeave_test"></class>
+		</classes>
+	</test>
+
+   <!-- <test name="Apply LOP from userview">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.ApplyLOPFromUserVIew_test"></class>
+		</classes>
+	</test>-->
+
+	<test name="Apply Leave From adminview">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.LeaveManagement.test.ApplyLeaveFromAdminView_test"></class>
+		</classes>
+	</test>
+
+</suite>

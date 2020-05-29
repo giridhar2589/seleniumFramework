@@ -1,0 +1,5 @@
+WinWait("Authentication Required","",20)
+Send("biswajit.kundu")
+Send("{TAB}")
+Send("September@2018")
+Send("{ENTER}")

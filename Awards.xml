@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BizApp Application-Awards" thread-count="1" parallel="tests">
+	<listeners>
+		<listener class-name="com.mu_sigma.OrgPlatformAutomationFramework.listners.Listners"></listener>
+	</listeners>
+	<test name="SpotAwards">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.Awards.test.SpotAwards"></class>
+		</classes>
+	</test>
+	<!-- <listeners>
+		<listener class-name="com.mu_sigma.OrgPlatformAutomationFramework.listners.Listners"></listener>
+	</listeners>
+	<test name="ImpactAwards">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.Awards.test.ImpactAwards"></class>
+		</classes>
+	</test>
+	<listeners>
+		<listener class-name="com.mu_sigma.OrgPlatformAutomationFramework.listners.Listners"></listener>
+	</listeners>
+	<test name="WeddingGifts">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.Awards.test.WeddingGift"></class>
+		</classes>
+	</test>
+	<listeners>
+		<listener class-name="com.mu_sigma.OrgPlatformAutomationFramework.listners.Listners"></listener>
+	</listeners>
+	<test name="NewBornGifts">
+		<classes>
+			<class
+				name="com.mu_sigma.OrgPlatformAutomationFramework.Awards.test.NewBornGift"></class>
+		</classes> 
+	</test>-->
+
+</suite>

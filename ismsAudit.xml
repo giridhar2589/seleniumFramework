@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BizApp Application" thread-count="1"
+	parallel="tests">
+	
+	<listeners>
+		<listener
+			class-name="com.mu_sigma.OrgPlatformAutomationFramework.listners.Listners"></listener>
+	</listeners>
+	<test name="IsmsAuditAuditDept_test">
+		<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.IsmsAudit.test.IsmsAuditDepartment_Test"></class>
+		</classes>
+	</test>
+	<test name="IsmsAuditAuditType_test">
+		<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.IsmsAudit.test.IsmsAuditAuditType_Test"></class>
+		</classes>
+	</test>
+	<test name= "IsmsAuditDuplicateAuditType_test">
+			<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.IsmsAudit.test.IsmsAuditDuplicateAuditType_Test"></class>
+			</classes>
+	</test>
+	<test name= "IsmsAuditAuditTypeMandatory_test">
+			<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.IsmsAudit.test.IsmsAuditAuditTypeMandatory_Test"></class>
+			</classes>
+	</test>
+			<test name= "IsmsAuditAuditYear_test">
+			<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.IsmsAudit.test.IsmsAuditAuditYear_Test"></class>
+			</classes>
+	</test>
+	<test name= "IsmsAuditAuditViewReport_test">
+			<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.IsmsAudit.test.IsmsAuditViewReport_Test"></class>
+			</classes>
+	</test>
+	<test name= "IsmsAuditAuditReportMandatory_test">
+			<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.IsmsAudit.test.IsmsAuditReportMandatory_Test"></class>
+			</classes>
+	</test>
+	<test name= "IsmsAuditreport_test">
+			<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.IsmsAudit.test.IsmsAuditreport_test"></class>
+			
+			</classes>
+	</test>
+	<test name= "IsmsAuditAssignMandatory_test">
+			<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.IsmsAudit.test.IsmsAuditAssignMandatory_Test"></class>
+			
+			</classes>
+	</test>
+	<test name= "IsmsAuditAuditAssign_test">
+			<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.IsmsAudit.test.IsmsAuditAssign_test"></class>
+			
+			</classes>
+	</test>
+	<test name= "IsmsAuditAuditSubmitted_test">
+			<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.IsmsAudit.test.IsmsAuditSubmitted_Test"></class>
+			
+			</classes>
+	</test>
+	
+	<test name= "IsmsAuditOpenMandatory_test">
+			<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.IsmsAudit.test.IsmsAuditOpenMandatory_Test"></class>
+			</classes>
+	</test>
+	<test name= "IsmsAuditOpen_test">
+			<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.IsmsAudit.test.IsmsAuditOpen_Test"></class>
+			</classes>
+	</test>
+	<test name= "IsmsAuditcloseMandatory_test">
+			<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.IsmsAudit.test.IsmsAuditCloseMandatory_Test"></class>
+			</classes>
+	</test>
+	<test name= "IsmsAuditClosed_test">
+			<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.IsmsAudit.test.IsmsAuditClosed_Test"></class>
+		</classes>
+	</test>
+	<test name= "IsmsAuditSubImpersonnate_test">
+			<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.IsmsAudit.test.IsmsAuditImpersonnate_Test"></class>
+			</classes>
+	</test>
+	<test name= "IsmsAuditSubRework_test">
+			<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.IsmsAudit.test.IsmsAuditSubRework_Test"></class>
+			</classes>
+	</test>
+	<test name= "IsmsAuditDelegate_test">
+			<classes>
+			<class name="com.mu_sigma.OrgPlatformAutomationFramework.IsmsAudit.test.IsmsAuditDelegate_test"></class>
+			</classes>
+	</test>
+</suite>
+

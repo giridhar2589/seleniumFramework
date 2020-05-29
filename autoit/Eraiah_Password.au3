@@ -1,0 +1,5 @@
+WinWait("Authentication Required","",20)
+Send("Eraiah.swamy")
+Send("{TAB}")
+Send("Jangam@12345")
+Send("{ENTER}")
